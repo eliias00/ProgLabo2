@@ -1,0 +1,7 @@
+C:\Users\alumno\Desktop\tercerPgm\tercerPgm\bin\Debug\tercerPgm.exe.config
+C:\Users\alumno\Desktop\tercerPgm\tercerPgm\bin\Debug\tercerPgm.exe
+C:\Users\alumno\Desktop\tercerPgm\tercerPgm\bin\Debug\tercerPgm.pdb
+C:\Users\alumno\Desktop\tercerPgm\tercerPgm\obj\Debug\tercerPgm.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\tercerPgm\tercerPgm\obj\Debug\tercerPgm.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\tercerPgm\tercerPgm\obj\Debug\tercerPgm.exe
+C:\Users\alumno\Desktop\tercerPgm\tercerPgm\obj\Debug\tercerPgm.pdb

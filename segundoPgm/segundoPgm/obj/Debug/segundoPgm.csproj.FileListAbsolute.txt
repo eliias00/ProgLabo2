@@ -1,0 +1,7 @@
+C:\Users\alumno\Desktop\segundoPgm\segundoPgm\bin\Debug\segundoPgm.exe.config
+C:\Users\alumno\Desktop\segundoPgm\segundoPgm\bin\Debug\segundoPgm.exe
+C:\Users\alumno\Desktop\segundoPgm\segundoPgm\bin\Debug\segundoPgm.pdb
+C:\Users\alumno\Desktop\segundoPgm\segundoPgm\obj\Debug\segundoPgm.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\segundoPgm\segundoPgm\obj\Debug\segundoPgm.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\segundoPgm\segundoPgm\obj\Debug\segundoPgm.exe
+C:\Users\alumno\Desktop\segundoPgm\segundoPgm\obj\Debug\segundoPgm.pdb

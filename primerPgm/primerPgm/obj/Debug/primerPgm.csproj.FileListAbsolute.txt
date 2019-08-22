@@ -1,0 +1,7 @@
+C:\Users\alumno\Desktop\primerPgm\primerPgm\bin\Debug\primerPgm.exe.config
+C:\Users\alumno\Desktop\primerPgm\primerPgm\bin\Debug\primerPgm.exe
+C:\Users\alumno\Desktop\primerPgm\primerPgm\bin\Debug\primerPgm.pdb
+C:\Users\alumno\Desktop\primerPgm\primerPgm\obj\Debug\primerPgm.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\primerPgm\primerPgm\obj\Debug\primerPgm.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\primerPgm\primerPgm\obj\Debug\primerPgm.exe
+C:\Users\alumno\Desktop\primerPgm\primerPgm\obj\Debug\primerPgm.pdb
