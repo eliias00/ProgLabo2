@@ -25,7 +25,7 @@ namespace ejercicio5CAMPUS
         {
             return this.productos;
         }
-        public String MostrarEstante(Estante e)
+        public static String MostrarEstante(Estante e)
         {
             StringBuilder sb = new StringBuilder();
 

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Entidades
 
 namespace ejercicio5CAMPUS
 {
@@ -64,6 +65,10 @@ namespace ejercicio5CAMPUS
             Console.WriteLine(Estante.MostrarEstante(estante));
 
             Console.ReadKey();
+
+            Prueba2 
+
+
         }
     }
 }
