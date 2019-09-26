@@ -1,0 +1,8 @@
+C:\Users\e723c0d\Desktop\Ej_polimorfismo\Ej_polimorfismo\bin\Debug\Ej_polimorfismo.exe.config
+C:\Users\e723c0d\Desktop\Ej_polimorfismo\Ej_polimorfismo\bin\Debug\Ej_polimorfismo.exe
+C:\Users\e723c0d\Desktop\Ej_polimorfismo\Ej_polimorfismo\bin\Debug\Ej_polimorfismo.pdb
+C:\Users\e723c0d\Desktop\Ej_polimorfismo\Ej_polimorfismo\bin\Debug\Entidades.dll
+C:\Users\e723c0d\Desktop\Ej_polimorfismo\Ej_polimorfismo\bin\Debug\Entidades.pdb
+C:\Users\e723c0d\Desktop\Ej_polimorfismo\Ej_polimorfismo\obj\Debug\Ej_polimorfismo.csprojResolveAssemblyReference.cache
+C:\Users\e723c0d\Desktop\Ej_polimorfismo\Ej_polimorfismo\obj\Debug\Ej_polimorfismo.exe
+C:\Users\e723c0d\Desktop\Ej_polimorfismo\Ej_polimorfismo\obj\Debug\Ej_polimorfismo.pdb

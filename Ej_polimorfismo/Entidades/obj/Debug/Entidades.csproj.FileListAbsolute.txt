@@ -1,0 +1,5 @@
+C:\Users\e723c0d\Desktop\Ej_polimorfismo\Entidades\bin\Debug\Entidades.dll
+C:\Users\e723c0d\Desktop\Ej_polimorfismo\Entidades\bin\Debug\Entidades.pdb
+C:\Users\e723c0d\Desktop\Ej_polimorfismo\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+C:\Users\e723c0d\Desktop\Ej_polimorfismo\Entidades\obj\Debug\Entidades.dll
+C:\Users\e723c0d\Desktop\Ej_polimorfismo\Entidades\obj\Debug\Entidades.pdb
