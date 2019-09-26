@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej polimorfismo", "Ej polimorfismo\Ej polimorfismo.csproj", "{F180A932-465E-48E8-8251-E4F8B08F6164}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{329E4D04-1C64-4A4C-818E-72A317452EEE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F180A932-465E-48E8-8251-E4F8B08F6164}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F180A932-465E-48E8-8251-E4F8B08F6164}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F180A932-465E-48E8-8251-E4F8B08F6164}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F180A932-465E-48E8-8251-E4F8B08F6164}.Release|Any CPU.Build.0 = Release|Any CPU
+		{329E4D04-1C64-4A4C-818E-72A317452EEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{329E4D04-1C64-4A4C-818E-72A317452EEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{329E4D04-1C64-4A4C-818E-72A317452EEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{329E4D04-1C64-4A4C-818E-72A317452EEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E71FFB3-FD7E-4E39-82D8-B746F30A6A56}
+	EndGlobalSection
+EndGlobal
