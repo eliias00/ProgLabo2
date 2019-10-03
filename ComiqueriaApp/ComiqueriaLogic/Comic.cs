@@ -10,8 +10,8 @@ namespace ComiqueriaLogic
     {
         public enum TipoComic
         {
-            occidental,
-            oriental   
+            Occidental,
+            Oriental   
         }
         private string autor;
         private TipoComic tipoComic;
@@ -24,9 +24,10 @@ namespace ComiqueriaLogic
         }
         public override string ToString()
         {
-            StringBuilder texto = new StringBuilder(base.ToString());
-            texto.Append("Autor:" + this.autor);
-            texto.Append("Tipo Comic:" + this.tipoComic);
+            StringBuilder texto = new StringBuilder();
+            texto.Append(base.ToString());
+            texto.AppendFormat("Autor: {0}" , this.autor);
+            texto.AppendFormat("Tipo Comic: {0}" , this.tipoComic);
             return texto.ToString();
         }
 

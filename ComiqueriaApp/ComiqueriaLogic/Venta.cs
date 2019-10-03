@@ -24,20 +24,26 @@ namespace ComiqueriaLogic
         {
             porcentajelva = 21;
         }
+        internal Venta(Producto p ,int cant)
+        {
+            this.producto = p;
+        }
         private void Vender(int cantidad )
         {
-           // fecha=
+            this.producto.Stock = this.producto.Stock - cantidad;
+            this.fecha = DateTime.Now;
+            this.precioFinal = Venta.CalcularPrecioFinal(producto.Precio, producto.Stock);
         }
         public static double  CalcularPrecioFinal(double precioUnidad,int cantidad)
         {
-            double precioFinal = (precioUnidad * cantidad) + porcentajelva;
+            double precioFinal = (precioUnidad * cantidad) + (precioUnidad * cantidad) * porcentajelva/100;
             return precioFinal;
         }
         public string ObtenerDescripcionBreve()
         {
-            StringBuilder sb = new StringBuilder();
-            sb.AppendFormat("fecha: {0} \ndescripcion: {1} \nprecioFinal: {2:N2}", fecha, producto.Descripcion, precioFinal);
-            return sb.ToString();
+            string retorno = string.Empty;
+            retorno = string.Format("fecha {0} – descripción {1} –precioFinal {2: 0.00}", this.fecha, producto.Descripcion, this.precioFinal);
+            return retorno;
         }
     }
 }

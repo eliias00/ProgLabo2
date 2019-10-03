@@ -9,7 +9,7 @@ namespace ComiqueriaLogic
     public abstract class Producto
     {
         private Guid codigo;
-             string descripcion;
+        private string descripcion;
         private double precio;
         private int stock;
 
@@ -25,7 +25,7 @@ namespace ComiqueriaLogic
         {
             get
             {
-                return this.precio;
+                return precio;
             }
         }
         public int Stock
@@ -36,7 +36,7 @@ namespace ComiqueriaLogic
             }
             set
             {
-                if (this.stock >=0)
+                if (value >=0)
                 {
                 this.stock = value;
                 }
@@ -49,16 +49,18 @@ namespace ComiqueriaLogic
             this.stock = stock;
             this.codigo = Guid.NewGuid();
         }
-        public explicit operator Guid(Producto p )
+        public static explicit operator Guid(Producto p )
             {
-          //    p.codigo
+            return p.codigo;
             }
-        public string ToString()
+        public override string ToString()
         {
-            StringBuilder texto = new StringBuilder();  
-            texto.AppendFormat("Descripcion: {0}\nCodigo: {1}\nPrecio: {2}\nStock: {3}\n",
-                                 this.descripcion, this.codigo, this.precio, this.stock);
-            return texto.ToString();
+            StringBuilder sb = new StringBuilder();
+            sb.AppendFormat("\nDescripcion: {0}", this.Descripcion);
+            sb.AppendFormat("\nCodigo : {0}", this.codigo);
+            sb.AppendFormat("\nPrecio: {0}", this.Precio);
+            sb.AppendFormat("\nStock: {0}", this.Stock);
+            return sb.ToString(); 
         }
     }
 }

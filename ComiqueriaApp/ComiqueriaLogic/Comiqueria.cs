@@ -10,47 +10,90 @@ namespace ComiqueriaLogic
     {
         private List<Producto> productos;
         private List<Venta> ventas;
-            
-    public Producto this[Guid codigo]
-    {
-
-        get
+        public Producto this[Guid codigo]
         {
-            foreach (Producto producto in productos)
+            get
             {
-                if (codigo == (Guid)producto)
+                Guid codigoDelProducto;
+
+                foreach (Producto producto in productos)
                 {
-                    return producto;
+
+                    codigoDelProducto = (Guid)producto;
+                    if (codigoDelProducto == codigo)
+                    {
+                        return producto;
+                    }
                 }
-                else
-                {
-                    return null;
-                }
+                return null;
             }
         }
-    }
-    public static bool operator ==(Comiqueria comiqueria ,Producto producto)
-    {
-            foreach ( producto.Descripcion in productos)
+        public Comiqueria()
+        {
+            productos = new List<Producto>();
+            ventas = new List<Venta>(); 
+        }
+        public void Vender (Producto p, int cant)
+        {
+            Venta ventaNueva = new Venta(p, cant);
+            ventas.Add(ventaNueva);
+        }
+        public void Vender(Producto p)
+        {
+            Vender(p, 1);
+        }
+        public string ListarVentas()
+        {
+            string retorno = string.Empty;
+            this.ventas.OrderByDescending(x => x.Fecha);
+
+            foreach (Venta venta in this.ventas)
             {
-                 return producto;
-            }   
-    }
+                retorno += venta.ObtenerDescripcionBreve();
+            }
+            return retorno;
+        }
+        public Dictionary<Guid, string> ListarProductos()
+        {
+            Dictionary<Guid, string> diccionario = new Dictionary<Guid, string>();
+            foreach (Producto producto in this.productos)
+            {
+                diccionario[(Guid)producto] = producto.Descripcion;
+            }
+
+            return diccionario;
+        }
+        public static bool operator ==(Comiqueria comiqueria, Producto producto)
+        {
+            foreach (Producto productoEnComiqueria in comiqueria.productos)
+            {
+                if (productoEnComiqueria.Descripcion == producto.Descripcion)
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
         public static bool operator !=(Comiqueria comiqueria, Producto producto)
         {
-            foreach (producto.Descripcion in productos)
-            {
-                return producto;
-            }
+            return !(comiqueria == producto);
         }
         public static Comiqueria operator +(Comiqueria comiqueria, Producto producto)
         {
-            foreach (producto.Descripcion in productos)
+            if(comiqueria!=producto)
             {
-                return producto;
+                comiqueria.productos.Add(producto);
             }
+            return comiqueria;  
         }
-
+        public override bool Equals(object obj)
+        {
+            return base.Equals(obj);
+        }
+        public override int GetHashCode()
+        {
+            return base.GetHashCode();
+        }
     }
 }
 
